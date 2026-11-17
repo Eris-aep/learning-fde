@@ -11,18 +11,23 @@
 
 正规格式：在powershell中输入以下：
 
+```
 cd 你的存放wenjian_tool.py的路径
 python wenjian_tool.py 模式 要执行该模式的路径
+```
 
 例子如下：
 例子1：
+```
 PS E:\网页\学习Python> python study/day30/wenjian_tool.py
 用法：
      python wenjian_tool.py rename 目录   # 加日期前缀
      python wenjian_tool.py fenlei 目录   # 按扩展名分类
 PS E:\网页\学习Python>
+```
 
 例子2：
+```
 PS E:\网页\学习Python>  python study/day30/wenjian_tool.py rename study/day30/test_rename
 ===进入预览模式===
 
@@ -38,8 +43,10 @@ c.md -> 20261117_c.md
 顶层： ['20261117_a.txt', '20261117_b.txt', '20261117_c.md']
 共改名 3 个，跳过 0 个, 失败0个
 PS E:\网页\学习Python>
+```
 
 例子3：
+```
 PS E:\网页\学习Python>  python study/day30/wenjian_tool.py fenlei study/day30/test_fenlei
 ===进入预览模式===
 将移动： 作文.txt -> txt/作文.txt
@@ -58,13 +65,14 @@ PS E:\网页\学习Python>  python study/day30/wenjian_tool.py fenlei study/day3
 顶层： ['jpg', 'md', 'txt', '归档']
 共移动 4 个，跳过 1 个，失败 0 个
 PS E:\网页\学习Python>
-===========================
+```
 
 错误示范：
+```
 cd 你的存放wenjian_tool.py的路径
 python wenjian_tool.py      （此条错误缺少参数）
 python wenjian_tool.py aaaa 要执行该模式的路径      (没有叫aaaa的模式，模式错误)
-
+```
 
 ## 安全设计	
 
