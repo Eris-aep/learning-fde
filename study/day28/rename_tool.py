@@ -4,8 +4,8 @@ mulu = "study/day28/test_files"
 qz = datetime.datetime.now().strftime("%Y%m%d_")
 
 
-def yjg(list):
-    return list[:8].isdigit() and list[8:9] == "_"
+def yjg(lb):
+    return lb[:8].isdigit() and lb[8:9] == "_"
 
 def main():
     try:
