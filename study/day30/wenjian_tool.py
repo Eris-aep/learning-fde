@@ -36,7 +36,7 @@ def jia_qianzhui(wj):
                     os.rename(old,new)   
                     print(name,"->",qz + name)
                     N = N + 1
-                except:
+                except OSError:
                     print(f"{name} 改前缀失败，跳过这个文件继续处理下一个")
                     k = k + 1
         print("顶层：", os.listdir(wj))
@@ -78,7 +78,7 @@ def fenlei(wj):
                     os.rename(wj + "/" + x, newpath + "/" + x )
                     print(f"已移动： {x} -> {hz[1:]}/{x}")
                     move = move + 1
-                except:
+                except OSError:
                     print(f"{x} 移动失败，跳过这个文件继续处理下一个")
                     shi = shi + 1
         print("顶层：", os.listdir(wj))
