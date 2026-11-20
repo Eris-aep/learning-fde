@@ -2,8 +2,8 @@
 # 作用：给一个文件夹里的所有文件统一加前缀
 import os
 
-dz = "study/reading/review_data"
-# dz = "study/reading/no_such_dir"
+dz = "python/reading/review_data"
+# dz = "python/reading/no_such_dir"
 
 def yjg(name):
     return name[:3] == "new" and name[3:4] == "_"

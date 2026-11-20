@@ -1,7 +1,7 @@
 import os
 import datetime
 
-mulu = "study/day28/test_files"
+mulu = "python/day28/test_files"
 qian = datetime.datetime.now().strftime("%Y%m%d") + "_"
 print("前缀是：", qian)
 print()

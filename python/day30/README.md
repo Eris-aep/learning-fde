@@ -19,7 +19,7 @@ python wenjian_tool.py 模式 要执行该模式的路径
 例子如下：
 例子1：
 ```
-PS E:\网页\学习Python> python study/day30/wenjian_tool.py
+PS E:\网页\学习Python> python python/day30/wenjian_tool.py
 用法：
      python wenjian_tool.py rename 目录   # 加日期前缀
      python wenjian_tool.py fenlei 目录   # 按扩展名分类
@@ -28,7 +28,7 @@ PS E:\网页\学习Python>
 
 例子2：
 ```
-PS E:\网页\学习Python>  python study/day30/wenjian_tool.py rename study/day30/test_rename
+PS E:\网页\学习Python>  python python/day30/wenjian_tool.py rename python/day30/test_rename
 ===进入预览模式===
 
 将改名： a.txt -> 20261117_a.txt
@@ -47,7 +47,7 @@ PS E:\网页\学习Python>
 
 例子3：
 ```
-PS E:\网页\学习Python>  python study/day30/wenjian_tool.py fenlei study/day30/test_fenlei
+PS E:\网页\学习Python>  python python/day30/wenjian_tool.py fenlei python/day30/test_fenlei
 ===进入预览模式===
 将移动： 作文.txt -> txt/作文.txt
 没有扩展名，跳过： 归档

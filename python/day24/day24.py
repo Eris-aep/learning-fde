@@ -1,4 +1,4 @@
-with open("study/day24/demo.txt","r",encoding="utf-8") as f:
+with open("python/day24/demo.txt","r",encoding="utf-8") as f:
     lines = f.readlines()
 
 for l in range(len(lines)):

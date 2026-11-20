@@ -2,7 +2,7 @@
 # 作用：统计一个文件夹里每种扩展名各有多少个文件，然后打印出来
 import os
 
-MULU = "study/reading/stat_data"
+MULU = "python/reading/stat_data"
 
 
 def tongji(mulu):

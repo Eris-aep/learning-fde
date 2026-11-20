@@ -1,5 +1,5 @@
-mulu = "study/day29/test_files"
-# mulu = "study/day29/no_such_dir"
+mulu = "python/day29/test_files"
+# mulu = "python/day29/no_such_dir"
 import os
 
 def main():

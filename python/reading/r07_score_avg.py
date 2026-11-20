@@ -17,4 +17,4 @@ def zongfen(path):
     return total / n
 
 
-print(zongfen("study/reading/score_data/fenshu.txt"))
+print(zongfen("python/reading/score_data/fenshu.txt"))

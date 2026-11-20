@@ -1,6 +1,6 @@
 import os,datetime
-mulu = "study/day28/test_files"
-# mulu = "study/day28/no_such_dir"
+mulu = "python/day28/test_files"
+# mulu = "python/day28/no_such_dir"
 qz = datetime.datetime.now().strftime("%Y%m%d_")
 
 

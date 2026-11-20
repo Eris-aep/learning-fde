@@ -1,7 +1,7 @@
 import os
 import datetime
 
-mulu = "study/reading/review_data2"
+mulu = "python/reading/review_data2"
 qz = datetime.datetime.now().strftime("%Y%m%d") + "_"
 
 for name in os.listdir(mulu):
