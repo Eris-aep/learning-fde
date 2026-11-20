@@ -19,16 +19,16 @@ python wenjian_tool.py 模式 要执行该模式的路径
 例子如下：
 例子1：
 ```
-PS E:\网页\学习Python> python python/day30/wenjian_tool.py
+PS E:\网页\学习FDE> python python/day30/wenjian_tool.py
 用法：
      python wenjian_tool.py rename 目录   # 加日期前缀
      python wenjian_tool.py fenlei 目录   # 按扩展名分类
-PS E:\网页\学习Python>
+PS E:\网页\学习FDE>
 ```
 
 例子2：
 ```
-PS E:\网页\学习Python>  python python/day30/wenjian_tool.py rename python/day30/test_rename
+PS E:\网页\学习FDE>  python python/day30/wenjian_tool.py rename python/day30/test_rename
 ===进入预览模式===
 
 将改名： a.txt -> 20261117_a.txt
@@ -42,12 +42,12 @@ b.txt -> 20261117_b.txt
 c.md -> 20261117_c.md
 顶层： ['20261117_a.txt', '20261117_b.txt', '20261117_c.md']
 共改名 3 个，跳过 0 个, 失败0个
-PS E:\网页\学习Python>
+PS E:\网页\学习FDE>
 ```
 
 例子3：
 ```
-PS E:\网页\学习Python>  python python/day30/wenjian_tool.py fenlei python/day30/test_fenlei
+PS E:\网页\学习FDE>  python python/day30/wenjian_tool.py fenlei python/day30/test_fenlei
 ===进入预览模式===
 将移动： 作文.txt -> txt/作文.txt
 没有扩展名，跳过： 归档
@@ -64,7 +64,7 @@ PS E:\网页\学习Python>  python python/day30/wenjian_tool.py fenlei python/da
 已移动： 笔记.md -> md/笔记.md
 顶层： ['jpg', 'md', 'txt', '归档']
 共移动 4 个，跳过 1 个，失败 0 个
-PS E:\网页\学习Python>
+PS E:\网页\学习FDE>
 ```
 
 错误示范：
