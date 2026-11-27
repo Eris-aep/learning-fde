@@ -21,4 +21,4 @@ class NewTodo(BaseModel):
 def add_todo(item: NewTodo):
     conn.execute("INSERT INTO todos (text, done) VALUES (?, ?)", (item.text, 0))
     conn.commit()
-    return {"ok", True}
+    return {"ok": True}
